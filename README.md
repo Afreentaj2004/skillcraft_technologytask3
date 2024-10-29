@@ -1,1 +1,5 @@
-# skillcraft_technologytask3
+This project is a Python program designed to solve any standard 9x9 Sudoku puzzle using the backtracking algorithm. In Sudoku, each row, column, and 3x3 grid must contain the numbers 1 to 9 without repetition. 
+The program represents the puzzle as a 9x9 grid (list of lists), with `0` marking empty cells that need to be filled. The **`is_valid`** function checks whether placing a number in a particular cell adheres to Sudoku rules. 
+The **`find_empty`** function locates the next empty cell, facilitating a step-by-step filling approach. The main function, **`solve_sudoku`**, employs backtracking to try numbers in each empty cell, verifying each placement with `is_valid`. 
+If a placement leads to a dead end, the program backtracks by removing the number and tries another. Once the puzzle is solved, **`print_board`** displays the completed grid in a formatted manner. 
+This approach ensures an efficient, systematic, and thorough exploration of solutions, capable of handling most solvable Sudoku puzzles. The project demonstrates algorithmic problem-solving and Python programming fundamentals.
